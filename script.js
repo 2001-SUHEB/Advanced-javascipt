@@ -139,8 +139,30 @@
 //     }
 // },1)
 
-console.log(nonZero);
+// console.log(nonZero);
 
 
+//=========================================ASSIGNMENTS=============================================
+//------------------project-1
+// let postArray=[]
+
+// let addPost=(post)=>{
+//     postArray.unshift(post)
+// }
+
+// let removePost=()=>{
+//     postArray.shift()
+// }
+
+// addPost("suheb")
+// addPost("suheb")
+// addPost("suheb")
+// addPost("suheb")
+// console.log(postArray);
+// removePost()
+// console.log(postArray);
 
 
+ 
+
+ 
