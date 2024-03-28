@@ -189,3 +189,41 @@
 // let stock = [12, 34, 8, 56, 54, 23, 100];
 // let [buy, sell] = findBestTimeToBuyAndSell(stock);
 // console.log("Buy at day", buy, "and sell at day", sell)
+
+
+//====================string methods------------------------------
+//=======string to array methods================
+// let str="hello suheb"
+// let str1="hello, syed"
+// let str2="suheb"
+
+// let arr=str.split(" ")
+// console.log(arr);
+// let arr2=str1.split(",")
+// console.log(arr2);
+// let ans=str2.split("")
+// console.log(ans);
+
+// //=======array to string methods=================
+
+// let arr3=[1,2,3,4,5,6,7,8,9,10]
+// let str4=arr3.join(" ")
+// console.log(str4);
+
+//=======other string methods------------------------------
+
+// let str="hello"
+
+// let char = str.charAt(2)
+// console.log(char);
+
+// let asci=str.charCodeAt(2)
+// console.log(asci);
+
+// let ans=String.fromCharCode(asci)
+// console.log(ans);
+
+// let string1="suheb"
+// let string2="rinci"
+// console.log(string1+" "+string2);
+ 
