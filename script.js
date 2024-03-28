@@ -161,8 +161,31 @@
 // console.log(postArray);
 // removePost()
 // console.log(postArray);
+//=========================================ASSIGNMENTS ON STOCK PRICE============================================              
 
+// function findBestTimeToBuyAndSell(stock) {
+//     let minprice=stock[stock.length-1]
+//     let maxProfit = 0;
+//     let buyIndex = 0;
+//     let sellIndex = stock.length-1;
+//     let maxPrice = stock[stock.length - 1]; // Start with the last day's price
 
- 
+//     for (let i = stock.length - 2; i >= 0; i--) {
+//         if(stock[i]>maxPrice){
+//             maxPrice=stock[i]
+//             sellIndex=i
+//         }else{
+//             let profit=maxPrice-stock[i]
+//             if(profit>maxProfit){
+//                 maxProfit=profit
+//                 buyIndex=i
+//             }
+//         }
+    
+// }
+// return [buyIndex, sellIndex];
+// }
 
- 
+// let stock = [12, 34, 8, 56, 54, 23, 100];
+// let [buy, sell] = findBestTimeToBuyAndSell(stock);
+// console.log("Buy at day", buy, "and sell at day", sell)
