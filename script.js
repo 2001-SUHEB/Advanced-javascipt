@@ -316,3 +316,49 @@
 // console.log(a); // Output: 1
 // console.log(b); // Output: 2
 // console.log(c); // Output: 3
+
+//====================TASK-3 ON DESTRUCTING OBJECTS=========================================
+
+// let obj={
+//     name:"suheb",
+//     age:22,
+//     gender:"male"
+// }
+
+// let {name,age,gender}=obj
+
+// name="rinci"
+// age=19
+// gender="female"
+
+// let obj2={
+//     name,
+//     age,
+//     gender
+// }
+
+// console.log(obj2);
+
+//===================REFERENCES AND SHALLOW COPY================
+
+// let a=[1,2,3,4,5]
+// let b=a
+// b[0]=100
+// console.log(a);
+// console.log(b);
+
+
+//======================FACTORIAL RECURSION =================================================
+
+// function factorial(num)
+// {
+//     if(num==0){
+//         return 1
+//     }
+//      return num*factorial(num-1)
+// }
+
+
+// console.log(factorial(6));
+
+//======================ADVANCED JAVASCRIPT =================================
