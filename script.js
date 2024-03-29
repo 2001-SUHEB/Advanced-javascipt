@@ -1,6 +1,6 @@
 //====================advanced javascript------------------------------
 
-//-----------------------array methods--------------------------------
+//----------------------- ans methods--------------------------------
 
 //1.pop()-->removes and returns element from last
 
@@ -9,7 +9,7 @@
 // console.log(arr);
 // console.log(removedElement);
 
-//2.push()---puhses at end and returns length of new array
+//2.push()---puhses at end and returns length of new  ans
 
 // let len=arr.push(8,9,10)
 // console.log(arr);
@@ -28,14 +28,14 @@
 
 //====================================================================================
 
-//------------converting string to array------------------------------
+//------------converting string to  ans------------------------------
 //-----------------------split()-----------------------
 
 // let str ="suheb"
 // let a=str.split("")
 // console.log(a);
 
-//--------------looping through elements of an array------------
+//--------------looping through elements of an  ans------------
 
 // for (let index = 0; index < a.length; index++) {
 //     const element = a[index];
@@ -57,7 +57,7 @@
 // console.log(que);
 
 //==============MAP============================================================
-//maps every element of an array and forms a new array
+//maps every element of an  ans and forms a new  ans
 // const num = [1,2,3,4,5,6]
 
 // const squarenum=num.map((element)=>{
@@ -76,9 +76,9 @@
 // })
 // console.log(farh);
 
-//=======================ARRAY METHOD============================
+//======================= ans METHOD============================
 
-//1.find()---->finds first occurence of something in an array(does not modifes the array)
+//1.find()---->finds first occurence of something in an  ans(does not modifes the  ans)
 
 // let num=[1,2,3,4,5,6]
 
@@ -144,23 +144,23 @@
 
 //=========================================ASSIGNMENTS=============================================
 //------------------project-1
-// let postArray=[]
+// let post ans=[]
 
 // let addPost=(post)=>{
-//     postArray.unshift(post)
+//     post ans.unshift(post)
 // }
 
 // let removePost=()=>{
-//     postArray.shift()
+//     post ans.shift()
 // }
 
 // addPost("suheb")
 // addPost("suheb")
 // addPost("suheb")
 // addPost("suheb")
-// console.log(postArray);
+// console.log(post ans);
 // removePost()
-// console.log(postArray);
+// console.log(post ans);
 //=========================================ASSIGNMENTS ON STOCK PRICE============================================              
 
 // function findBestTimeToBuyAndSell(stock) {
@@ -192,7 +192,7 @@
 
 
 //====================string methods------------------------------
-//=======string to array methods================
+//=======string to  ans methods================
 // let str="hello suheb"
 // let str1="hello, syed"
 // let str2="suheb"
@@ -204,7 +204,7 @@
 // let ans=str2.split("")
 // console.log(ans);
 
-// //=======array to string methods=================
+// //======= ans to string methods=================
 
 // let arr3=[1,2,3,4,5,6,7,8,9,10]
 // let str4=arr3.join(" ")
@@ -227,3 +227,92 @@
 // let string2="rinci"
 // console.log(string1+" "+string2);
  
+//======================TASK ON STRING =================================
+
+// let str=prompt("Enter a string")
+// str=str+" "
+// let ans=[]
+// let i=0
+// let res=""
+// let finalAnswer=""
+// while(i<str.length) {
+//      if(str[i]==" "){
+//         ans.push(res)
+//         res=""
+//      }else{
+//         res=res+str[i]
+//      }
+//      i++
+
+// }
+// for (let  j = 0;  j <  ans.length;  j++) {
+//     const element =  ans[j];
+//     if(j==ans.length-1){
+//           finalAnswer=finalAnswer+element
+//     }else{
+//         finalAnswer=finalAnswer+element[0]+". "
+//     }
+    
+// }
+
+// console.log(finalAnswer);
+ 
+
+//====TASK-2 ON STRING =============================================================
+//CEASER CIPHER=========================================== 
+
+// let str = "xyz"
+// let shift = 2
+// let ans=""
+// for (let  i = 0;  i < str.length;  i++) {
+//     const element = str[ i];
+//     let ascii=str.charCodeAt(i)+shift
+//     if(ascii>122){
+//     ascii=ascii%122 + 96
+//     ans+=String.fromCharCode(ascii)
+//     }
+//     else{
+//         ans+=String.fromCharCode(ascii)
+//     }
+// }
+// console.log(ans);
+
+//===================JSON--JAVASCRIPT OBJECT NOTATION =================================================
+// let obj={
+//     a:1,
+//     b:2,
+//     c:3,
+//     d:4,
+//     e:5,
+//     f:6
+// }
+
+// let str=JSON.stringify(obj)
+// console.log(str);
+
+// let obj2=JSON.parse(str)    
+// console.log(obj2);
+// console.log(obj2.c);
+// console.log(obj2.f);
+
+//=====================DESTRUCTING OBJECT =================================================
+
+// let obj={
+//     name:"suheb",
+//     age:22,
+//     city:"vellore",
+//     programmer:true
+// }
+
+// let {name,age}=obj
+// console.log(age);
+// console.log(name);
+
+//====================DESTRUCTING ARRAYS=========================================
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let [a, b, c, d, e, f, g, h, i, j] = arr;
+
+// console.log(a); // Output: 1
+// console.log(b); // Output: 2
+// console.log(c); // Output: 3
